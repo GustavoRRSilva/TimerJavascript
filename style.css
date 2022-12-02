@@ -1,0 +1,28 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+.tempo, .botoes{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.counter{
+    font-size: 2em;
+}
+.botao{
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border-color: unset;
+    font-weight: bold;
+}
+.iniciar{
+    background-color: #00caf8;
+}
+.pausar{
+    background-color: #f1db42;
+}
+.zerar{
+    background-color: #ff2654;
+}
